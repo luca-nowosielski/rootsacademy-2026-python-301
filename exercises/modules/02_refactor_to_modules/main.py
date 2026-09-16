@@ -4,12 +4,12 @@ TAX_RATE = 0.21
 BULK_QTY = 10
 BULK_DISCOUNT = 0.1
 
-ORDERS = [
-    {"name": "Hex Bolt M6", "qty": 25, "unit_price": 0.15},
-    {"name": "Washer M6", "qty": 25, "unit_price": 0.05},
-    {"name": "Cordless Drill", "qty": 1, "unit_price": 89.99},
-    {"name": "Drill Bit Set", "qty": 3, "unit_price": 12.50},
-]
+ORDERS = {
+    "Hex Bolt M6": {"qty": 25, "unit_price": 0.15},
+    "Washer M6": {"qty": 25, "unit_price": 0.05},
+    "Cordless Drill": {"qty": 1, "unit_price": 89.99},
+    "Drill Bit Set": {"qty": 3, "unit_price": 12.50},
+}
 
 
 def line_total(order):

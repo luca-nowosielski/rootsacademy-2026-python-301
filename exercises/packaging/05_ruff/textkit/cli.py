@@ -1,5 +1,3 @@
-import sys
-
 import click
 from textkit_stats import average_word_length
 

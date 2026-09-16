@@ -25,6 +25,7 @@ textkit-stats = { path = "vendor/textkit-stats", editable = true }
 dev = [
     "mypy>=1.11",
     "pytest>=8.0",
+    "ruff>=0.16.7",
 ]
 
 [tool.mypy]

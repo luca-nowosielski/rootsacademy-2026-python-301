@@ -66,6 +66,12 @@ $ uv add --dev pytest                           # dev-only dependency
   `uv sync`, never shipped in the wheel.
 - A CLI entry point is declared once, under `[project.scripts]`:
 
+> **`uv sync`** brings `.venv` in line with `pyproject.toml`/`uv.lock`:
+> installs `[project] dependencies` + the default dependency group(s, e.g.
+> `dev`), re-resolves `uv.lock` first if it's stale, and installs your own
+> project editable. `uv run` does this same sync automatically before
+> running; `uv sync` is for getting the env ready on its own.
+
 ```toml
 [project.scripts]
 textkit = "textkit.cli:main"

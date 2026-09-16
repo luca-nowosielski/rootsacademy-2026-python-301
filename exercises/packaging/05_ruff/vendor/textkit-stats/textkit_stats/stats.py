@@ -1,6 +1,3 @@
-import sys
-
-
 def average_word_length(text: str) -> float:
     words = text.split()
     if not words:
