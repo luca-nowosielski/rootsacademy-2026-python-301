@@ -1,0 +1,10 @@
+INVOICE
+==========================================
+Hex Bolt M6         x25     EUR 3.38 (bulk)
+Washer M6           x25     EUR 1.12 (bulk)
+Cordless Drill      x1     EUR 89.99
+Drill Bit Set       x3     EUR 37.50
+------------------------------------------
+Subtotal                  EUR 131.99
+Tax (21%)                  EUR 27.72
+Total                     EUR 159.71
